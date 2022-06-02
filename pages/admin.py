@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Team
+from .models import Team, Topbar
 from django.utils.html import format_html
 
 # Register your models here.
@@ -20,8 +20,9 @@ class TeamAdmin(admin.ModelAdmin):
 
     # Tuple to add a search functionality to team
     search_fields = ('first_name','last_name', 'designation',)
-    
+
     # Tuple to display filter for teams by designation on the sidebar
     list_filter = ('designation',)
 
 admin.site.register(Team, TeamAdmin)
+admin.site.register(Topbar)
