@@ -15,6 +15,8 @@ class Team(models.Model):
     def __str__(self):
         return self.first_name
 
+        
+
 class Topbar(models.Model):
     topbar_phone = models.CharField(max_length=255)
     topbar_email = models.EmailField(max_length=255)
