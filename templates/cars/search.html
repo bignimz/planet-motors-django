@@ -14,62 +14,45 @@
 <!-- Banner end -->
 
 <!-- Search box 3 start -->
-<div class="search-box-3 sb-7 bg-active">
+<div class="search-box-3 sb-7 bg-active" style="background-color: darkblue">
   <div class="container">
     <div class="search-area-inner">
       <div class="search-contents">
-        <form method="GET">
+        <form action="{% url 'search' %}" method="">
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 col-6">
               <div class="form-group">
-                <select class="selectpicker search-fields" name="select-brand">
+                <select class="selectpicker search-fields" name="model">
                   <option disabled="disabled" selected="selected">
-                    Select Brand
+                    Select Model
                   </option>
-                  <option>Audi</option>
-                  <option>BMW</option>
-                  <option>Honda</option>
-                  <option>Nissan</option>
+                  {% for model in model_search %}
+                  <option value="{{ model}}">{{model}}</option>
+                  {% endfor %}
                 </select>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-6">
               <div class="form-group">
-                <select class="selectpicker search-fields" name="select-make">
-                  <option disabled="disabled" selected="selected">
-                    Select Make
-                  </option>
-                  <option>BMW</option>
-                  <option>Honda</option>
-                  <option>Lamborghini Huracán</option>
-                  <option>Sports Car</option>
-                </select>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-              <div class="form-group">
-                <select
-                  class="selectpicker search-fields"
-                  name="select-location"
-                >
+                <select class="selectpicker search-fields" name="city">
                   <option disabled="disabled" selected="selected">
                     Select Location
                   </option>
-                  <option>United States</option>
-                  <option>United Kingdom</option>
+                  {% for city in city_search %}
+                  <option value="{{ city }}">{{city}}</option>
+                  {% endfor %}
                 </select>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-6">
               <div class="form-group">
-                <select class="selectpicker search-fields" name="select-year">
+                <select class="selectpicker search-fields" name="year">
                   <option disabled="disabled" selected="selected">
                     Select Year
                   </option>
-                  <option>2016</option>
-                  <option>2017</option>
-                  <option>2018</option>
-                  <option>2019</option>
+                  {% for year in year_search %}
+                  <option value="{{year}}">{{year}}</option>
+                  {% endfor %}
                 </select>
               </div>
             </div>
@@ -77,23 +60,25 @@
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 col-6">
               <div class="form-group">
-                <select class="selectpicker search-fields" name="select-type">
+                <select class="selectpicker search-fields" name="body_style">
                   <option disabled="disabled" selected="selected">
                     Select Type Of Car
                   </option>
-                  <option>New Car</option>
-                  <option>Used Car</option>
+                  {% for body_style in body_style_search %}
+                  <option value="{{ body_style }}">{{body_style}}</option>
+                  {% endfor %}
                 </select>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-6">
               <div class="form-group">
-                <select class="selectpicker search-fields" name="transmission">
+                <select class="selectpicker search-fields" name="condition">
                   <option disabled="disabled" selected="selected">
-                    Transmission
+                    Condition
                   </option>
-                  <option>Automatic</option>
-                  <option>Manual</option>
+                  {% for condition in condition_search %}
+                  <option value="{{ condition }}">{{condition}}</option>
+                  {% endfor %}
                 </select>
               </div>
             </div>
@@ -102,8 +87,8 @@
                 <div class="range-slider">
                   <div
                     data-min="0"
-                    data-max="150000"
-                    data-unit="USD"
+                    data-max="15000000"
+                    data-unit="KES"
                     data-min-name="min_price"
                     data-max-name="max_price"
                     class="range-slider-ui ui-slider"
@@ -141,12 +126,13 @@
       <div class="col-lg-4 col-md-6">
         <div class="car-box">
           <div class="car-thumbnail">
-            <a href="car-details.html" class="car-img">
+            <a href="{% url 'car_detail' car.id %}" class="car-img">
               <div class="tag">For Sale</div>
               <img
                 class="d-block w-100"
                 src="{{car.main_photo.url}}"
                 alt="car"
+                style="min-height: 262px; max-height: 262px"
               />
               <div class="facilities-list clearfix">
                 <ul>
@@ -176,36 +162,36 @@
                   </a>
                   <div class="car-magnify-gallery">
                     <a
-                      href="img/car/car-1.jpg"
+                      href="{{car.main_photo.url}}"
                       class="overlap-btn"
                       data-sub-html="<h4>Lamborghini Huracán</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>"
                     >
                       <i class="fa fa-expand"></i>
                       <img
                         class="hidden"
-                        src="img/car/car-1.jpg"
+                        src="{{car.main_photo.url}}"
                         alt="hidden-img"
                       />
                     </a>
                     <a
-                      href="img/car/car-2.jpg"
+                      href="{{car.photo_1.url}}"
                       class="hidden"
                       data-sub-html="<h4>Lexus GS Red Car</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>"
                     >
                       <img
                         class="hidden"
-                        src="img/car/car-2.jpg"
+                        src="{{car.photo_1.url}}"
                         alt="hidden-img"
                       />
                     </a>
                     <a
-                      href="img/car/car-3.jpg"
+                      href="{{car.photo_2.url}}"
                       class="hidden"
                       data-sub-html="<h4>2015 Porsche Cayenne</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>"
                     >
                       <img
                         class="hidden"
-                        src="img/car/car-3.jpg"
+                        src="{{car.photo_2.url}}"
                         alt="hidden-img"
                       />
                     </a>
@@ -238,10 +224,10 @@
           </div>
           <div class="detail">
             <h1 class="title">
-              <a href="car-details.html">{{car.car_title}}</a>
+              <a href="{% url 'car_detail' car.id %}">{{car.car_title}}</a>
             </h1>
             <div class="location">
-              <a href="car-details.html">
+              <a href="{% url 'car_detail' car.id %}">
                 <i class="flaticon-pin"></i>{{car.city}}
               </a>
             </div>
