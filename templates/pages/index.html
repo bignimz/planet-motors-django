@@ -1,4 +1,5 @@
-{% extends "base.html" %} {% block body %} {% load humanize %} {% load static %}
+{% extends "base.html" %}{% block title %} Your Home Of Cars {% endblock %}<br />
+{% block body %} {% load humanize %} {% load static %}
 <!-- Banner start -->
 <div class="banner" id="banner">
   <div
@@ -10,7 +11,7 @@
       <div class="carousel-item banner-max-height active item-bg">
         <img
           class="d-block w-100 h-100"
-          src="{% static 'img/car.jpg' %}"
+          src="{% static 'img/car-1.jpg' %}"
           alt="banner"
         />
         <div class="carousel-content container banner-info-2 bi-2 text-left">
@@ -157,6 +158,7 @@
   <div class="container">
     <!-- Main title -->
     <div class="main-title">
+      {% include 'includes/messages.html' %}
       <h1>Featured <span>Cars</span></h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>

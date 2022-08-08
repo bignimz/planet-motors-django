@@ -1,4 +1,5 @@
-{% extends "base.html" %} {% load static %} {% load humanize %} {% block body %}
+{% extends "base.html" %} {% block title %} Our Cars Inventory {% endblock %}<br />
+{% load static %} {% load humanize %} {% block body %}
 
 <div class="sub-banner overview-bgi">
   <div class="container breadcrumb-area">
@@ -22,7 +23,7 @@
           <div class="col-lg-6 col-md-6">
             <div class="car-box-3">
               <div class="car-thumbnail">
-                <a href="car-details.html" class="car-img">
+                <a href="{% url 'car_detail' car.id %}" class="car-img">
                   <div class="tag">For Sale</div>
                   <div class="price-box">
                     <span>Kes{{car.price | intcomma}}.00</span>
@@ -75,10 +76,10 @@
               </div>
               <div class="detail">
                 <h1 class="title">
-                  <a href="car-details.html">{{car.car_title}}</a>
+                  <a href="{% url 'car_detail' car.id %}">{{car.car_title}}</a>
                 </h1>
                 <div class="location">
-                  <a href="car-details.html">
+                  <a href="{% url 'car_detail' car.id %}">
                     <i class="flaticon-pin"></i>{{car.city}}
                   </a>
                 </div>
