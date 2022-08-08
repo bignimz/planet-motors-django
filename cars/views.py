@@ -8,7 +8,7 @@ from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 
 def cars(request):
     cars = Car.objects.all().order_by('-created_date')
-    paginator = Paginator(cars, 4)
+    paginator = Paginator(cars, 6)
     page = request.GET.get('page')
     paged_cars = paginator.get_page(page)
 
