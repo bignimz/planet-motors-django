@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '62x^2mw_fn3a=lg=w+9*)-0a!l!3*4=@l)cnuy6-fu=z8@_46='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
@@ -75,6 +76,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'planetmotors.urls'
@@ -101,15 +103,17 @@ WSGI_APPLICATION = 'planetmotors.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'planetmodb',
-        'USER': 'planetmo',
-        'PASSWORD': 'qwerty',
-        'HOST': 'localhost',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'planetmodb',
+#         'USER': 'planetmo',
+#         'PASSWORD': 'qwerty',
+#         'HOST': 'localhost',
+#     }
+# }
+
+DATABASES = {'default': dj_database_url.config(default='postgres://planetmo:qwerty@localhost/planetmodb')}
 
 
 # Password validation
@@ -172,3 +176,7 @@ EMAIL_PORT = 587,
 EMAIL_HOST_USER = 'micmojainc@gmail.com',
 EMAIL_HOST_PASSWORD = 'Mombasa@001',
 EMAIL_USE_TLS = True
+
+
+# Whitenoise settings
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
