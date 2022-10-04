@@ -1,0 +1,1190 @@
+[
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "Toyota 4 Runner",
+        "city": "Nairobi",
+        "color": "Silver",
+        "model": "SR5",
+        "year": 2018,
+        "condition": "Foreign Used",
+        "price": 1200000,
+        "description": "<p>The 2022 Toyota 4Runner comes in eight trims: SR5, SR5 Premium, Trail Special Edition, TRD Sport, TRD Off-Road, TRD Off-Road Premium, Limited, and TRD Pro. All models come with a 270-horsepower 4.0-liter V6 engine and a five-speed automatic transmission. Rear-wheel drive comes standard in most trims, though four-wheel drive is optional in those and standard in a few TRD models.</p>\r\n\r\n<p>The SR5 Premium makes a great choice for many shoppers, as it comes with a few more comfort and convenience features than the base model, including synthetic leather upholstery and heated front seats. The two TRD Off-Road trims are good options for weekend adventurers, as they come with rugged upgrades and still cost a fair bit less than the trail-running TRD Pro model.</p>",
+        "main_photo": "photos/2022/07/28/1893633875.jpg",
+        "photo_1": "photos/2022/07/28/1893633879.jpg",
+        "photo_2": "photos/2022/07/28/1893633884.jpg",
+        "photo_3": "photos/2022/07/28/1896836883.jpg",
+        "photo_4": "photos/2022/07/28/1896836887.jpg",
+        "photo_5": "default.jpg",
+        "photo_6": "default.jpg",
+        "photo_7": "default.jpg",
+        "photo_8": "default.jpg",
+        "photo_9": "default.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,Park Assist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Sunroof,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3000cc",
+        "transmission": "Automatic",
+        "interior": "Charcoal Black",
+        "doors": "5",
+        "seats": 7,
+        "reg_number": "KDD 047A",
+        "mileage": 6000,
+        "fuel_type": "Petrol",
+        "is_featured": true,
+        "created_date": "2022-07-27T23:02:02Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "Ford Edge",
+        "city": "Nairobi",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Foreign Used",
+        "price": 3500000,
+        "description": "<p>Yes, the 2017 Edge is a good&nbsp;<a href=\"https://cars.usnews.com/cars-trucks/rankings/used/2017-affordable-midsize-suvs\">midsize SUV</a>. It offers spacious two-row seating, excellent fuel economy, strong engine options, and lower five-year projected ownership costs than its rivals. The Edge isn&#39;t perfect, however, as some rivals have more upscale cabins and earn higher predicted reliability ratings.</p>\r\n\r\n<h5><strong><strong>Why You Can Trust Us</strong></strong></h5>\r\n\r\n<p>To help you decide if the Ford Edge is the right SUV for you, we&#39;ve gathered and analyzed 25 professional reviews. We&#39;ve also included information about the Edge&#39;s fuel economy, safety, reliability, and much more to give you an idea of the Edge&#39;s strengths and weaknesses.</p>\r\n\r\n<p>The U.S. News Best Cars staff has more than 75 years of combined experience in the automotive industry, and we&#39;ve been ranking the best vehicles since 2007. To keep our reviews free from outside influence, we don&#39;t accept expensive gifts or trips from automakers, and a third party places and sells the ads on our site</p>",
+        "main_photo": "photos/2022/07/28/1901478607.jpg",
+        "photo_1": "photos/2022/07/28/1901478618.jpg",
+        "photo_2": "photos/2022/07/28/1901478646.jpg",
+        "photo_3": "photos/2022/07/28/1901478672.jpg",
+        "photo_4": "photos/2022/07/28/1901478687.jpg",
+        "photo_5": "default.jpg",
+        "photo_6": "default.jpg",
+        "photo_7": "default.jpg",
+        "photo_8": "default.jpg",
+        "photo_9": "default.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Seat Heating,Alarm System,Park Assist,Power Steering,Reversing Camera,Auto Start/Stop,Sunroof,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "2500cc",
+        "transmission": "Automatic",
+        "interior": "Gray",
+        "doors": "5",
+        "seats": 5,
+        "reg_number": "KDD 007P",
+        "mileage": 8000,
+        "fuel_type": "Petrol",
+        "is_featured": true,
+        "created_date": "2022-07-27T23:20:35Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "Toyota Corolla",
+        "city": "Nairobi",
+        "color": "White",
+        "model": "Allion",
+        "year": 2018,
+        "condition": "Foreign Used",
+        "price": 1800000,
+        "description": "<p>This is a 2018 Toyota Allion NZT260 AUTOMATIC Transmission with the Stock No 182333, It Uses GASOLINE and has a 1500CC Engine.</p>",
+        "main_photo": "photos/2022/07/28/1900893299.jpg",
+        "photo_1": "photos/2022/07/28/1900893311.jpg",
+        "photo_2": "photos/2022/07/28/1900893319.jpg",
+        "photo_3": "photos/2022/07/28/1900893329.jpg",
+        "photo_4": "photos/2022/07/28/1900893391.jpg",
+        "photo_5": "default.jpg",
+        "photo_6": "default.jpg",
+        "photo_7": "default.jpg",
+        "photo_8": "default.jpg",
+        "photo_9": "default.jpg",
+        "features": "Airbags,Air Conditioning,Alarm System,Park Assist,Power Steering,Reversing Camera,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Sedan",
+        "engine": "1500cc",
+        "transmission": "Automatic",
+        "interior": "Brown",
+        "doors": "4",
+        "seats": 5,
+        "reg_number": "KDE 314Z",
+        "mileage": 8500,
+        "fuel_type": "Petrol",
+        "is_featured": false,
+        "created_date": "2022-07-27T23:24:54Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2013 BMW 116i",
+        "city": "Mombasa",
+        "color": "Black",
+        "model": "F20",
+        "year": 2013,
+        "condition": "Foreign Used",
+        "price": 1850000,
+        "description": "<p>The second generation of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_1_Series\" title=\"BMW 1 Series\">BMW 1 Series</a>&nbsp;consists of the&nbsp;<strong>BMW F20</strong>&nbsp;(5-door hatchback) and&nbsp;<strong>BMW F21</strong>&nbsp;(3-door hatchback)&nbsp;<a href=\"https://en.wikipedia.org/wiki/Subcompact_car\" title=\"Subcompact car\">subcompact cars</a>. The F20/F21 generation was produced by&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW\" title=\"BMW\">BMW</a>&nbsp;from 2011 to 2019 and is often collectively referred to as the F20.</p>\r\n\r\n<p>For the second generation of 1 Series, the coup&eacute; and convertible models were marketed separately using the new&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_2_Series\" title=\"BMW 2 Series\">BMW 2 Series</a>&nbsp;nameplate.</p>\r\n\r\n<p>The F20/F21 was initially powered by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Inline-four_engine\" title=\"Inline-four engine\">inline-four</a>&nbsp;petrol, inline-four diesel, and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Inline-six_engine\" title=\"Inline-six engine\">inline-six</a>&nbsp;petrol engines. In 2015,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Straight-three_engine\" title=\"Straight-three engine\">inline-three</a>&nbsp;petrol and diesel engines were added to the model range. All engines are&nbsp;<a href=\"https://en.wikipedia.org/wiki/Turbocharger\" title=\"Turbocharger\">turbocharged</a>.</p>\r\n\r\n<p>Unlike most hatchback competitors, the F20/F21 uses a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear-wheel_drive\" title=\"Rear-wheel drive\">rear-wheel drive</a>&nbsp;(rather than front-wheel drive) for most models. The F20/F21 is the first 1 Series to offer an optional&nbsp;<a href=\"https://en.wikipedia.org/wiki/All-wheel_drive\" title=\"All-wheel drive\">all-wheel drive</a>&nbsp;(called &quot;<a href=\"https://en.wikipedia.org/wiki/XDrive\" title=\"XDrive\">xDrive</a>&quot; by BMW).</p>",
+        "main_photo": "photos/2022/07/28/1.jpeg",
+        "photo_1": "photos/2022/07/28/2.jpeg",
+        "photo_2": "photos/2022/07/28/3.jpeg",
+        "photo_3": "photos/2022/07/28/4.jpeg",
+        "photo_4": "photos/2022/07/28/5.jpeg",
+        "photo_5": "photos/2022/07/28/6.jpeg",
+        "photo_6": "photos/2022/07/28/7.jpeg",
+        "photo_7": "default.jpg",
+        "photo_8": "default.jpg",
+        "photo_9": "default.jpg",
+        "features": "Airbags,Air Conditioning,Alarm System,Park Assist,Power Steering,Reversing Camera,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Hatchback",
+        "engine": "1500cc",
+        "transmission": "Automatic",
+        "interior": "Charcoal Black",
+        "doors": "4",
+        "seats": 5,
+        "reg_number": "KCY 812R",
+        "mileage": 4500,
+        "fuel_type": "Petrol",
+        "is_featured": false,
+        "created_date": "2022-07-28T09:24:26Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2013 Honda Fit",
+        "city": "Mombasa",
+        "color": "Black",
+        "model": "Fit",
+        "year": 2013,
+        "condition": "Foreign Used",
+        "price": 1500000,
+        "description": "<p>The 2013 Honda Fit&#39;s #1 ranking is based on its score within the&nbsp;<a href=\"https://cars.usnews.com/cars-trucks/rankings/used/2013-subcompact-cars\">2013 Subcompact Cars</a>&nbsp;category. It is the winner of our 2013 Best Subcompact Car for the Money award and the winner of our 2013 Best Hatchback for the Money award. Currently the Honda Fit has a score of 9.1 out of 10, which is based on our evaluation of 60 pieces of research and data elements using various&nbsp;<a href=\"https://cars.usnews.com/cars-trucks/honda/fit/2013/sources\">sources</a>.</p>",
+        "main_photo": "photos/2022/07/28/1_cAxYhd8.jpeg",
+        "photo_1": "photos/2022/07/28/2_SrFpvg4.jpeg",
+        "photo_2": "photos/2022/07/28/3_6t55b9C.jpeg",
+        "photo_3": "photos/2022/07/28/4_Zp9aAHV.jpeg",
+        "photo_4": "photos/2022/07/28/5_KVuSqks.jpeg",
+        "photo_5": "photos/2022/07/28/6_mQ7rQ80.jpeg",
+        "photo_6": "photos/2022/07/28/7_2jnZB5y.jpeg",
+        "photo_7": "photos/2022/07/28/8.jpeg",
+        "photo_8": "photos/2022/07/28/9.jpeg",
+        "photo_9": "default.jpg",
+        "features": "Audio Interface,Airbags,Air Conditioning,Alarm System,Park Assist,Power Steering,Reversing Camera,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Hatchback",
+        "engine": "1300cc",
+        "transmission": "Automatic",
+        "interior": "Brown",
+        "doors": "4",
+        "seats": 5,
+        "reg_number": "KCY 112V",
+        "mileage": 9400,
+        "fuel_type": "Petrol",
+        "is_featured": false,
+        "created_date": "2022-07-28T09:34:06Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "Nissan Xtrail",
+        "city": "Nairobi",
+        "color": "Red",
+        "model": "Xtrail",
+        "year": 2015,
+        "condition": "Foreign Used",
+        "price": 3200000,
+        "description": "<p>There is no denying that the first- and second-generation&nbsp;<a href=\"https://www.topspeed.com/cars/nissan-x-trail/ke2317.html\">X-Trail</a>&nbsp;was boxy and, for lack of a better word, ugly. For 2014,&nbsp;<a href=\"https://www.topspeed.com/cars/nissan/index73.html\">Nissan</a>&nbsp;redesigned the X-Trail, ushering in a new generation and a more modern design that puts it leagues ahead of the outgoing model. On the outside, the X-Trail takes styling cues from the rest of Nissan&rsquo;s&nbsp;<a href=\"https://www.topspeed.com/cars/crossover/\">crossover</a>&nbsp;and&nbsp;<a href=\"https://www.topspeed.com/cars/suv/\">SUV</a>&nbsp;lineup, featuring the V-Motion grille, a heavily revised front fascia, new exterior lighting modules, and a sleek side profile. It should also be noted that the new X-Trail also drops that boxy, 80s-looking rear end for a more modern look that should appeal to the masses. Inside, The X-Trail benefits from more space, better ergonomics, the latest iteration of Nissan&rsquo;s NissanConnect system with a seven-inch display and smartphone connectivity. The downfall of the new X-Trail is the underpowered boredom box under the hood. The 1.6-liter diesel engine delivers a laughable 128 horsepower and 236 pound-feet of torque, which means its looks better be good enough if it stands a chance against models like the&nbsp;<a href=\"https://www.topspeed.com/cars/bmw-x3/ke255.html\">BMW X3</a>&nbsp;and the&nbsp;<a href=\"https://www.topspeed.com/cars/honda-cr-v/ke1595.html\">Honda CR-V</a>.</p>",
+        "main_photo": "photos/2022/07/28/pictures_of_nissan_xtrail_new_shape-1.jpeg",
+        "photo_1": "photos/2022/07/28/pictures_of_nissan_xtrail_new_shape-2.jpeg",
+        "photo_2": "photos/2022/07/28/pictures_of_nissan_xtrail_new_shape-3.jpeg",
+        "photo_3": "photos/2022/07/28/pictures_of_nissan_xtrail_new_shape-4.jpeg",
+        "photo_4": "photos/2022/07/28/pictures_of_nissan_xtrail_new_shape-5.jpeg",
+        "photo_5": "photos/2022/07/28/pictures_of_nissan_xtrail_new_shape-6.jpeg",
+        "photo_6": "photos/2022/07/28/pictures_of_nissan_xtrail_new_shape-7.jpeg",
+        "photo_7": "photos/2022/07/28/pictures_of_nissan_xtrail_new_shape-8.jpeg",
+        "photo_8": "photos/2022/07/28/pictures_of_nissan_xtrail_new_shape-9.jpeg",
+        "photo_9": "photos/2022/07/28/pictures_of_nissan_xtrail_new_shape-10.jpeg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,Park Assist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Sunroof,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "2000cc",
+        "transmission": "Automatic",
+        "interior": "Charcoal Black",
+        "doors": "5",
+        "seats": 5,
+        "reg_number": "KDD 789N",
+        "mileage": 7300,
+        "fuel_type": "Petrol",
+        "is_featured": true,
+        "created_date": "2022-07-28T10:37:18Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Nimrod",
+        "last_name": "Allan",
+        "designation": "Web Developer",
+        "photo": "photos/2022/06/02/20190911_164707.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google-plus.com",
+        "created_date": "2022-06-02"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "Director",
+        "photo": "photos/2022/06/02/avatar-11.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google-plus.com",
+        "created_date": "2022-06-02"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "Showroom Manager",
+        "photo": "photos/2022/06/02/avatar-12.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google-plus.com",
+        "created_date": "2022-06-02"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Parker",
+        "designation": "Sales Manager",
+        "photo": "photos/2022/06/02/avatar-10.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google-plus.com",
+        "created_date": "2022-06-02"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "Amy",
+        "last_name": "Adams",
+        "designation": "Secretary",
+        "photo": "photos/2022/06/02/avatar-9.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google-plus.com",
+        "created_date": "2022-06-02"
+    }
+},
+{
+    "model": "pages.topbar",
+    "pk": 1,
+    "fields": {
+        "topbar_phone": "+254-001-123456",
+        "topbar_email": "info@planetmotors.biz",
+        "open_hours": "Mon - Sat: 9:00am - 5:00pm"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Allan",
+        "last_name": "Allan",
+        "car_id": 6,
+        "customer_inquiry": "I'm interested in this",
+        "car_title": "Nissan Xtrail",
+        "city": "Nairobi",
+        "county": "Nairobi",
+        "email": "alroude.chitayi@gmail.com",
+        "phone": "0110001122",
+        "message": "Whats the best price for this car",
+        "user_id": 0,
+        "create_date": "2022-10-04T12:53:06.469Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "John",
+        "last_name": "Smith",
+        "car_id": 1,
+        "customer_inquiry": "I'd like to know your best price for this",
+        "car_title": "Toyota 4 Runner",
+        "city": "mombasa",
+        "county": "Mombasa",
+        "email": "john@mail.com",
+        "phone": "0110001122",
+        "message": "What is the best price for this car? I'm interested",
+        "user_id": 0,
+        "create_date": "2022-10-04T12:59:30.361Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "Nimrod ",
+        "last_name": "Allan",
+        "car_id": 1,
+        "customer_inquiry": "I'm interested in this",
+        "car_title": "Toyota 4 Runner",
+        "city": "Nairobi",
+        "county": "Nairobi",
+        "email": "john@mail.com",
+        "phone": "0110001122",
+        "message": "test",
+        "user_id": 2,
+        "create_date": "2022-10-04T13:14:18.515Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "Planet",
+        "last_name": "Motors",
+        "car_id": 5,
+        "customer_inquiry": "I'm interested in this",
+        "car_title": "2013 Honda Fit",
+        "city": "Nairobi",
+        "county": "Nairobi",
+        "email": "admin@admin.com",
+        "phone": "",
+        "message": "test",
+        "user_id": 2,
+        "create_date": "2022-10-04T14:44:34.215Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 5,
+    "fields": {
+        "first_name": "Planet",
+        "last_name": "Motors",
+        "car_id": 5,
+        "customer_inquiry": "I'm interested in this",
+        "car_title": "2013 Honda Fit",
+        "city": "Nairobi",
+        "county": "Nairobi",
+        "email": "admin@admin.com",
+        "phone": "",
+        "message": "test",
+        "user_id": 2,
+        "create_date": "2022-10-04T14:44:50.216Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$U6tOXOkMQ0ZrBjOrYd5OKs$5HBSYicteObALez7UIwUSdsTY+dcy4+k2FN6jEIllIo=",
+        "last_login": "2022-06-02T00:19:26Z",
+        "is_superuser": false,
+        "username": "nimrod",
+        "first_name": "",
+        "last_name": "",
+        "email": "alroude.chitayi@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-06-02T00:18:58Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$YcaCGDEjcjwoK9kFS8Wvk9$obuuyw1Oj1YcyiOyJgVC3YUmMgP1bmG+l1yAX0QbYrw=",
+        "last_login": "2022-10-04T18:59:39.886Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "Planet",
+        "last_name": "Motors",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-07-27T22:38:18Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "123456",
+        "last_login": "2022-07-29T23:01:12.535Z",
+        "is_superuser": false,
+        "username": "eskenya",
+        "first_name": "Mkulima",
+        "last_name": "userlast",
+        "email": "nimrod.autosell@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-07-29T23:01:12.524Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "123456",
+        "last_login": "2022-07-29T23:16:36.020Z",
+        "is_superuser": false,
+        "username": "bignimz",
+        "first_name": "Nimrod",
+        "last_name": "Musungu",
+        "email": "nimrod.chitayi@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-07-29T23:16:35.992Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "123456",
+        "last_login": "2022-07-29T23:19:13.317Z",
+        "is_superuser": false,
+        "username": "bond",
+        "first_name": "James",
+        "last_name": "Bond",
+        "email": "jbond@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-07-29T23:19:13.307Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "password",
+        "last_login": "2022-08-08T12:33:36.149Z",
+        "is_superuser": false,
+        "username": "planetmo",
+        "first_name": "Planet",
+        "last_name": "Motors",
+        "email": "admin@planetmotors.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-08-08T12:33:36.139Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "admin@123",
+        "last_login": "2022-08-08T12:50:18.459Z",
+        "is_superuser": false,
+        "username": "jdoe",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john@mail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-08-08T12:50:18.442Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!w0NEbcoqa0vL2eLlsh2NDFlLMoll0Kc3Zg96TOwe",
+        "last_login": "2022-08-08T15:30:07.658Z",
+        "is_superuser": false,
+        "username": "mkulima",
+        "first_name": "mkulima",
+        "last_name": "base",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-08-08T15:14:56.611Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "37bny76a513dhm28ycmjneaf1u2w3ngv",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAKwoBL9z0DmTKDVA0kpV0Z765NutDtf-_9l4i4rSVunZc4k7gILU6_24TpwXUHdMd6azK1ui7zJHdFHrTLsRE_r4f7d1Cwl29tk04ZnQHUKlgH4C15woEooYdE4CyrkFUwnJVzgw4eDThWZLw-Ky3eH-K3N1I:1ofjJV:19oo6Q9VNPGgkZEbdYakSK13mHU7b7xx4I9qilXX924",
+        "expire_date": "2022-10-18T14:54:29.063Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "49dlgajlsqr8wjkar3113k0oa6llzp3g",
+    "fields": {
+        "session_data": ".eJxVzMFugzAMgOF38RmhNIwk9LjDNE3aE0wTcm0D2ViMSLis6rsPpl56s_x_9hWyUsQZiXRLpc8Fi8D54wrLqiQ5wxlmHWOCCjLpsjfYR9zK1C-44s8B4FbBC4n8vqaoo3uDzwr6f7JlWfvIu7HwsLsgfUs6An9hGrUmTWWNl_og9b3m-l1Z5ue7fXgwYZ7265YsDegaj9Z0rfM-tBwYT8yEwRN714rpBtM1MhjnTrYL2Hgnhptgn4yF2x_r1FTL:1oL44r:NvSGwX0pqmAL3c4yf1scBgsZMwYkYVuvAmAD7UlXN10",
+        "expire_date": "2022-08-22T14:49:57.637Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "l6od0geb9xubrwwoxgygdgsup5k3wwz8",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAKwoBL9z0DmTKDVA0kpV0Z765NutDtf-_9l4i4rSVunZc4k7gILU6_24TpwXUHdMd6azK1ui7zJHdFHrTLsRE_r4f7d1Cwl29tk04ZnQHUKlgH4C15woEooYdE4CyrkFUwnJVzgw4eDThWZLw-Ky3eH-K3N1I:1oHASt:LOJ6OgB-ru4DbgBTXT4AwbwdMIFtZ3o07zG7dhukYiE",
+        "expire_date": "2022-08-11T20:50:39.417Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "orloz41kbn2h0gxmk59o3544l7airf56",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSHDFLC4dN9vIMNjpGogKe3K-O_apAvd3nPOfQlP21r81vPi5yQuQonT7xYoPnLdQbpTvTUZW12XOchdkQftcmopP6-H-3dQqJdvTWC1tgM7OJMlBiY2mJOGMcOgwCliCxwdszUa9RCRQ0QMBq0zMY_i_QHdAzfJ:1nwYYg:UMPU5l93DHDGxttXvGB6aqcRVZ1sr517tY8HEG3zUtQ",
+        "expire_date": "2022-06-16T00:19:26.219Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zsnkhrv2w7he93vhvgy3d3xmh7w7ucj3",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlmOf3Eo6XMGa727xgHkSHFSIe5OIqWA9s3Me4sI21ri1niJE4mrcOLyuyXAJ9cD0APqfZY413WZkjwUedImx5n4dTvdv4MCrew1BOMSgs5klWXdJ3QKdGeIA5K1iSh0mpxRWefBYyLrvR_cHrDpc7bi8wX_ITiO:1oHZGD:LiDZ7Xrxr7iNWOYxM7dQvLe1KeaUUaiwRH81Cn00PSs",
+        "expire_date": "2022-08-12T23:19:13.323Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "http://localhost:8000",
+        "name": "localhost"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "127.0.0.1:8000",
+        "name": "localhost"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "google",
+        "name": "Google Login",
+        "client_id": "587843917209-qvp6jn1k577p6mj6jjah9be5po3n8kap.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "sites": [
+            [
+                "http://localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "mkulima"
+        ],
+        "provider": "google",
+        "uid": "108968401793246211504",
+        "last_login": "2022-08-08T15:30:07.626Z",
+        "date_joined": "2022-08-08T15:14:56.648Z",
+        "extra_data": "{\"id\": \"108968401793246211504\", \"name\": \"mkulima base\", \"given_name\": \"mkulima\", \"family_name\": \"base\", \"picture\": \"https://lh3.googleusercontent.com/a/AItbvmmoGHovnQTvLFlWSvVZpCFnVLfNDFa312RYufzJ=s96-c\", \"locale\": \"en\"}"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-06-02T00:45:40.227Z",
+        "user": [
+            "nimrod"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-06-02T00:55:47.630Z",
+        "user": [
+            "nimrod"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Nimrod",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-06-02T00:58:03.822Z",
+        "user": [
+            "nimrod"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Nimrod",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-06-02T00:58:25.441Z",
+        "user": [
+            "nimrod"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Nimrod",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-06-02T08:41:15.057Z",
+        "user": [
+            "nimrod"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Martin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-06-02T08:41:59.383Z",
+        "user": [
+            "nimrod"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Brandon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-06-02T08:42:42.679Z",
+        "user": [
+            "nimrod"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Michelle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-06-02T08:44:16.998Z",
+        "user": [
+            "nimrod"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Amy",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-06-02T09:48:19.830Z",
+        "user": [
+            "nimrod"
+        ],
+        "content_type": [
+            "pages",
+            "topbar"
+        ],
+        "object_id": "1",
+        "object_repr": "+254-001-123456",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-07-27T23:19:22.961Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Car object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-07-27T23:20:32.907Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Toyota 4 Runner",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-07-27T23:24:46.404Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "Ford Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-07-27T23:29:07.740Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-07-28T00:46:21.656Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Toyota 4 Runner",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Main photo\", \"Photo 1\", \"Photo 2\", \"Photo 3\", \"Photo 4\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-07-28T09:31:38.187Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2013 BMW 116i",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-07-28T09:38:26.755Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2013 Honda Fit",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-07-28T09:38:36.694Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2013 Honda Fit",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-07-28T10:32:22.382Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Toyota Corolla",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body style\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-07-28T10:41:02.064Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Nissan Xtrail",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-07-28T10:47:24.665Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Nissan Xtrail",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-07-28T10:47:24.671Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2013 Honda Fit",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-07-28T10:47:24.676Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2013 BMW 116i",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-07-28T10:47:24.680Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Toyota Corolla",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-08-08T14:40:25.195Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-08-08T14:49:38.878Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "2",
+        "object_repr": "http://localhost:8000",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-08-08T14:49:43.436Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Google Login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Sites\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-08-08T14:52:32.025Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Google Login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-08-08T14:54:14.432Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Google Login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Sites\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-08-08T15:01:15.231Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "3",
+        "object_repr": "127.0.0.1:8000",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-08-08T15:10:31.979Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Google Login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-10-04T14:24:13.561Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-10-04T15:30:05.813Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "nimrod",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+}
+]

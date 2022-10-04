@@ -1,6 +1,8 @@
 {% extends "base.html" %} <br />
 {% block title %} {{single_car.car_title}} {% endblock %}<br />
-{% load humanize %} {% block body %}
+{% load static %}<br />
+{% load humanize %}<br />
+{% block body %}
 <!-- Sub banner start -->
 <div class="sub-banner overview-bgi">
   <div class="container breadcrumb-area">
@@ -18,6 +20,7 @@
 <!-- Car details page start -->
 <div class="car-details-page content-area-6">
   <div class="container">
+    {% include 'includes/messages.html' %}
     <div class="row">
       <div class="col-lg-8 col-md-12 col-xs-12">
         <div class="car-details-section">
@@ -353,16 +356,29 @@
           <!-- Inquiry Modal -->
           <div class="modal fade" id="inquiryModal" role="dialog">
             <div class="modal-dialog">
-              <div class="modal-content">
+              <div class="modal-content" style="z-index: 999">
                 <div class="contact-dealer modal-header">
                   <!-- <h5 class="modal-title" id="inquiryModalLabel">Contact Dealer</h5> -->
-                  <img src="img/logos/logo-black-white.png" />
+                  <img src="{% static 'img/logos/logo-black-white.png' %}" />
                   <button type="button" class="close" data-dismiss="modal">
                     <span>&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  <form action="#">
+                  <form action="{% url 'inquiry' %}" method="POST">
+                    {% csrf_token %} <br />
+                    {% if user.is_authenticated %}<br />
+                    <input type="hidden" name="user_id" value="{{ user.id }}" />
+
+                    {% else %}<br />
+                    <input type="hidden" name="user_id" value="0" />
+                    {% endif %}
+                    <input
+                      type="hidden"
+                      name="car_id"
+                      ,
+                      value="{{single_car.id}}"
+                    />
                     <div class="form-group">
                       <label for="name" class="col-form-label"
                         >Hello, My Name is</label
@@ -374,15 +390,21 @@
                             name="first_name"
                             class="form-control"
                             placeholder="First Name"
+                            {% if user.is_authenticated %}
+                            value="{{ user.first_name }}"
+                            {% endif %}
                             required
                           />
                         </div>
                         <div class="col">
                           <input
-                            type="text"
+                            type="text" 
                             name="last_name"
                             class="form-control"
                             placeholder="Last Name"
+							{% if user.is_authenticated %}
+                            value="{{ user.last_name }}"
+                            {% endif %}
                             required
                           />
                         </div>
@@ -392,7 +414,7 @@
                       <select
                         class="form-control"
                         id="sel1"
-                        name="customer_need"
+                        name="customer_inquiry"
                       >
                         <option value="I'm interested in this">
                           I'm interested in this
@@ -436,9 +458,9 @@
                         <div class="col">
                           <input
                             type="text"
-                            name="state"
+                            name="county"
                             class="form-control"
-                            placeholder="State"
+                            placeholder="County"
                             required
                           />
                         </div>
@@ -456,6 +478,9 @@
                             name="email"
                             class="form-control"
                             placeholder="Email Address"
+							{% if user.is_authenticated %}
+                            value="{{ user.email }}"
+                            {% endif %}
                             required
                           />
                         </div>
