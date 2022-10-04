@@ -1,5 +1,6 @@
 {% extends "base.html" %} {% block title %} Account Login {% endblock %}<br />
-{% load static %} {% block body %}
+{% load static %} {% load socialaccount %} {% providers_media_js %}<br />
+{% block body %}
 
 <div class="sub-banner overview-bgi">
   <div class="container breadcrumb-area">
@@ -66,7 +67,7 @@
                 >
               </li>
               <li>
-                <a href="#" class="google-bg"
+                <a href="{% provider_login_url 'google' %}" class="google-bg"
                   ><i class="fa fa-google google-i"></i><span>Google</span></a
                 >
               </li>

@@ -25,7 +25,21 @@ SECRET_KEY = '62x^2mw_fn3a=lg=w+9*)-0a!l!3*4=@l)cnuy6-fu=z8@_46='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+
+LOGIN_REDIRECT_URL = 'dashboard'
+
+# SOCIALACCOUNT_PROVIDERS = {
+#     'google': {
+#         # From https://developer.twitter.com
+#         'APP': {
+#             'client_id': '587843917209-qvp6jn1k577p6mj6jjah9be5po3n8kap.apps.googleusercontent.com',
+#             'secret': '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',
+#             'key': "",
+#         }
+#     },
+
+# }
 
 
 # Application definition
@@ -34,6 +48,7 @@ INSTALLED_APPS = [
     'cars.apps.CarsConfig',
     'pages.apps.PagesConfig',
     'accounts.apps.AccountsConfig',
+    'contacts.apps.ContactsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +57,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ckeditor',
     'django.contrib.humanize',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+
+    # Providers
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.google',
 ]
 
 MIDDLEWARE = [
@@ -140,3 +163,12 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+SITE_ID = 2
+
+# Email sending settings
+EMAIL_HOST = 'smtp-gmail.com',
+EMAIL_PORT = 587,
+EMAIL_HOST_USER = 'micmojainc@gmail.com',
+EMAIL_HOST_PASSWORD = 'Mombasa@001',
+EMAIL_USE_TLS = True
