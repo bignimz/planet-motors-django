@@ -26,7 +26,7 @@ SECRET_KEY = '62x^2mw_fn3a=lg=w+9*)-0a!l!3*4=@l)cnuy6-fu=z8@_46='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'car-dealer-webapp-production.up.railway.app']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
